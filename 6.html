@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASS SELECTOR</title>
+    <style>
+
+        .myclass {
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height:100vh;
+                    background: black;
+
+        }
+
+        .beautify {
+
+            border-radius: 8px;
+            padding:8px;
+            font-family: cursive;
+            font-size: 64px;
+            font-weight: bold;
+            background: white;
+        }
+
+    </style>
+    <script src="6.js"></script>
+</head>
+<body>
+    <!--class selector-->
+    <!--parent-->
+    <div id='id1' class="myclass">
+        <!--chid-->
+        <div id='id2' class="beautify" onmouseover="handleMouseOver()" onmouseout="handleMouseOut()"> Hello World
+        </div>
+    </div>
+</body>
+</html>
